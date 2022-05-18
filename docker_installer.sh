@@ -1,8 +1,8 @@
 #!/bin/bash
 
-file=./docker.repo
-file2=/etc/yum.repos.d/
-cp -d $file $file2 ;
+file=./docker.repo ./basic.repo
+path=/etc/yum.repos.d/
+cp -d $file $path ;
 echo -e "\nfile copyied\n"
 # check network is connected or not if connected install some rpm packages used to install docker dependencys.
 if ping -c 1 -q goo.gl >&/dev/null; then
