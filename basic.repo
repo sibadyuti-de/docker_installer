@@ -1,0 +1,7 @@
+[Appstream]
+baseurl=file:///run/media/root/RHEL-8-0-0-BaseOS-x86_64/AppStream
+gpgcheck=0
+
+[BaseOs]
+baseurl=file:///run/media/root/RHEL-8-0-0-BaseOS-x86_64/BaseOS
+gpgcheck=0
