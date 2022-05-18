@@ -1,7 +1,7 @@
 #!/bin/bash
 
-file= docker.repo basic.repo
-filepath=/etc/yum.repos.d/
+file="docker.repo basic.repo"
+filepath="/etc/yum.repos.d/"
 cp -d $file $filepath ;
 echo -e "\nfile copyied\n"
 # check network is connected or not if connected install some rpm packages used to install docker dependencys.
